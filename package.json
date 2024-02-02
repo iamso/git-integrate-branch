@@ -1,0 +1,21 @@
+{
+  "name": "@iamso/git-integrate-branch",
+  "version": "0.1.0",
+  "description": "Interactively integrate a branch",
+  "author": "Steve Ottoz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bin": {
+    "gib": "index.js",
+    "git-integrate-branch": "index.js"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "preferGlobal": true
+}
